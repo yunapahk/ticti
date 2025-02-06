@@ -1,0 +1,40 @@
+dateModified: 1738806670
+email:
+  fromEmail: karan@rise.co
+  fromName: TICTI
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@web/uploads'
+meta:
+  __names__:
+    0f2bc31f-bab9-4992-b13f-922bbd5aa0b1: Primary # Primary
+    4aa568ae-f3ed-4383-becf-aa3c8d9440b9: Uploads # Uploads
+    8b057862-6f2b-400e-ac73-8f5d889512ac: New # New
+    18adf19e-be89-48ac-8b0f-1693aa471089: TICTI # TICTI
+    200e4921-f00c-40c6-82ce-26fb6e10334c: TICTI # TICTI
+    e7135c62-e2f8-4c61-879c-fe462258bb31: Dummy # Dummy
+plugins:
+  commerce:
+    edition: pro
+    enabled: true
+    licenseKey: Q85BEKC8LRPC25C57U791DP9
+    schemaVersion: 5.2.9.1
+system:
+  edition: solo
+  live: true
+  name: TICTI
+  schemaVersion: 5.6.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

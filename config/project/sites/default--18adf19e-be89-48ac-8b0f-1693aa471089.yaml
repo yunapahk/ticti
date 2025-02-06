@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: TICTI
+primary: true
+siteGroup: 200e4921-f00c-40c6-82ce-26fb6e10334c # TICTI
+sortOrder: 1
